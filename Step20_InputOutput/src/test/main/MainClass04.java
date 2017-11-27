@@ -4,7 +4,9 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 public class MainClass04 {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException { 
+		//InputStream or OutputStream 사용시 IOException 처리를 위한 방법으로 
+		// 1)try~catch 구문 사용과 2) throws IOException 으로 처리하는 방법이 있다.
 		//콘솔에 출력할 수 있는 OutputStream 객체의 참조값
 		OutputStream os = System.out;
 		//출력할 준비
