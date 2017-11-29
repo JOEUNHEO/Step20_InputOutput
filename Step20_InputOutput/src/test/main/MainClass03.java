@@ -1,5 +1,23 @@
 package test.main;
-
+/*
+ * 	[ input ]
+ * 
+ * 	InputStream
+ * 	FileInputStream(파일에 있는 바이트 알갱이 입력)
+ * 	FileReader(파일에 있는 문자열 입력)
+ * 	InputStreamReader
+ * 	BufferedReader(줄 단위로 문자열 입력)
+ * - console, file, socket 에 입력
+ * 
+ * 	[ output ]
+ * 	
+ * 	OutputStream
+ * 	FileOutputStream(파일에 바이트 알갱이 출력)
+ * 	FileWriter(파일에 문자열 출력)
+ * 	OutputStreamWriter
+ * 	BufferedWriter(줄 단위로 문자열 출력)
+ * - console, file, socket 에 출력
+ */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
